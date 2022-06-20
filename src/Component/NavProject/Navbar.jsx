@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
    <nav className="navbar navbar-expand-lg   navbar-dark" id="navbar">
   <div className="container">
-<NavLink to="/">
+<NavLink to="/abood">
 
       <img src={LOGO} alt=""  className='navbar-brand' />
 </NavLink>
@@ -18,11 +18,11 @@ const Navbar = () => {
     <div className="collapse navbar-collapse " id="navbarNavDropdown">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <NavLink className="nav-link " id='navLink1' aria-current="page" to='/'>About Me!</NavLink>
+          <NavLink className="nav-link " id='navLink1' aria-current="page" to='/abood'>About Me!</NavLink>
         </li>
  
         <li className="nav-item">
-          <NavLink className="nav-link" to="/" id='navLink2'>My Work</NavLink>
+          <NavLink className="nav-link" to="/abood" id='navLink2'>My Work</NavLink>
         </li>
       
       </ul>
