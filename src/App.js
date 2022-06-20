@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <h1>helo</h1>
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="project" exact element={<Project />} />
