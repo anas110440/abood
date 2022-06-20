@@ -1,0 +1,109 @@
+.home{
+    background:url("./back.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .navbar{
+    padding-block: 2.5rem!important;
+}
+
+.home .navbar a{
+    margin-right: 1rem;
+    font-weight: 400;
+}
+
+.home .navbar a:hover{
+    color: #f2bf49 !important;
+}
+
+
+
+.home .arrow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.home .arrow p{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    color: #fff;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.home .arrow p span{
+    color: #f2bf49 ;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.home .arrow .sequer{
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    background-color: #f2bf49 ;
+    bottom: 15%;
+    right: 50%;
+    transform: translateX(50%);
+    cursor: pointer;
+
+}
+.home .arrow .arr{
+    position: absolute;
+    width: 8px;
+    height: 40px;
+    background-color: #f2bf49 ;
+    bottom: 7%;
+    right: 50%;
+    transform: translateX(50%);
+    cursor: pointer;
+    transition: all 4s;
+
+
+}
+
+    .home .arrow .arr::after{
+content: "";
+    position: absolute;
+    border: solid #f2bf49 ;
+    border-width: 0px 8px 8px 0;
+    padding: 3px;
+    bottom: 0px;
+    right: -6px;
+    transform: rotate(45deg);
+    height: 20px;
+    width: 20px;
+
+
+}
+
+    .home .arrow .arr{
+    animation: danceleft 1s ease-in-out infinite;
+    
+    }
+@keyframes danceleft {
+    0% {
+            height: 40px;
+            bottom: 7%;
+
+    }
+
+    50% {
+        height: 60px;
+            bottom: 6%;
+    }
+
+    100% {
+          height: 40px;
+            bottom: 7%;
+
+    }
+
+}

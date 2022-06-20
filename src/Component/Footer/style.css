@@ -1,0 +1,41 @@
+.Footer{
+    background-color: #2c327e;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer img{
+    display: block;
+    width: 60px;
+}
+
+.Footer h6{
+    color: #fff;
+    margin-top: 2rem;
+}
+.Footer h6 span{
+    font-weight: 300;
+    margin-right: .5rem;
+}
+
+.Footer .boxes .o,
+.Footer .boxes .t,
+.Footer .boxes .th,
+.Footer .boxes .f,
+.Footer .boxes .fi{
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.Footer .boxes svg{
+    fill: #fff;
+    width: 25px!important;
+    transition: all .3s ease-in-out;
+}
+
+.Footer .boxes svg:hover{
+    fill: #f2bf49;
+    }
